@@ -1,0 +1,160 @@
+resolution : 1280 720
+
+object : light
+pos : -100 -100 -100
+color : 0.5 0.5 0.5
+
+ambient_light : 0.5
+
+object : camera
+pos : 0 -10 -100
+
+object : cube
+pos : 0 -20 0
+radius : 15
+color : 1 1 1
+
+object : cube
+pos : 0 -20 -2
+radius : 13
+color : 0.99 0.92 0.77
+
+object : sphere
+pos : 0 -30 5
+radius : 2
+color : 0.84 0.25 0.53
+
+object : limited_cylinder
+pos : -3 -20 -9
+radius : 0.5
+separation : 5
+color : 0 0 0
+
+object : limited_cylinder
+pos : 3 -20 -9
+radius : 0.5
+separation : 5
+color : 0 0 0
+
+object : triangle
+a : 0 -25 -9.5
+b : -6 -26 -9.5
+c : -6 -27 -9.5
+color : 0 0 0
+
+object : triangle
+a : 0 -25 -9.5
+b : 6 -26 -9.5
+c : 6 -27 -9.5
+color : 0 0 0
+
+object : limited_cylinder
+pos : 0 -8 0
+radius : 3
+separation : 5
+color : 0.33 0.37 0.65
+
+object : limited_cylinder
+pos : 0 -6 0
+radius : 3.5
+separation : 1
+color : 0 0 0
+
+object : cube
+pos : 0 -6 -3
+radius : 2
+color : 0.98 0.9 0.08
+
+object : cube
+pos : 0 -6 -4
+radius : 1
+color : 0 0 0
+
+object : limited_cylinder
+pos : -5 -12 0
+radius : 1
+separation : 5
+angle : 0 0 -1.57
+color : 1 1 1
+
+object : limited_cylinder
+pos : 5 -8 0
+radius : 1
+separation : 5
+angle : 0 0 0.5
+color : 1 1 1
+
+object : sphere
+pos : -10 -12 0
+radius : 2
+color : 0.84 0.25 0.53
+
+material_type : bomb
+specular : 1000
+specular_power : 50
+
+object : sphere
+pos : -13 -18 0
+radius : 5
+material : bomb
+color : 0 0 0
+
+object : limited_cylinder
+pos : -13 -22.5 0
+radius : 2
+separation : 1
+material : bomb
+color : 0 0 0
+
+object : limited_cylinder
+pos : -13 -24 0
+radius : 0.5
+separation : 4
+color : 0.42 0.16 0.1
+
+material_type : explosion
+texture : img/sun.jpg 2
+
+object : sphere
+pos : -13 -28 0
+radius : 1
+material : explosion
+
+object : sphere
+pos : 8 -3 0
+radius : 2
+color : 0.84 0.25 0.53
+
+object : limited_cylinder
+pos : -2.5 -1 0
+radius : 1
+separation : 8
+angle : 0 0 -0.3
+color : 1 1 1
+
+object : limited_cylinder
+pos : 2.5 -1 0
+radius : 1
+separation : 8
+angle : 0 0 0.3
+color : 1 1 1
+
+object : sphere
+pos : -5 7 0
+radius : 2
+color : 0.84 0.25 0.53
+
+object : sphere
+pos : 5 7 0
+radius : 2
+color : 0.84 0.25 0.53
+
+object : plane
+pos : 0 -1 0
+radius : 20
+color : 0.5 0.5 0.5
+
+object : plane
+pos : 0 0 -1
+radius : 20
+color : 0.9 0.9 0.9

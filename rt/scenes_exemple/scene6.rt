@@ -1,0 +1,20 @@
+resolution : 640 480
+
+background_color : 0
+
+object : camera
+pos : 0 0 -3000
+
+object : light
+pos : 0 -1000 -2000
+
+object : cone
+pos : 0 0 0
+radius : 10
+angle : 0.7 0 0
+color : 1 1 0
+
+object : plane
+pos : 0 0 -1
+radius : 0
+color : 1 1 1

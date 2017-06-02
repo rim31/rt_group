@@ -1,0 +1,26 @@
+resolution : 1280 720
+
+background_color : 555555
+
+object : camera
+pos : 0 0 -500
+
+object : light
+pos : -300 300 -500
+color : 1 0 0
+
+object : light
+pos : 300 300 -500
+color : 0 1 0
+
+object : sphere
+pos : 0 0 0
+radius : 30
+specular : 200
+specular_power : 100
+color : 1 0 0
+
+object : plane
+pos : 0 0 -1
+radius : 0
+color : 1 1 1

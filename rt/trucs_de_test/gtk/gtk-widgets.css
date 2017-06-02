@@ -1,0 +1,7 @@
+@import url(“gtk-widgets.css”);
+* {
+engine: none;
+
+border-width: 1px;
+background-clip: padding-box;
+}

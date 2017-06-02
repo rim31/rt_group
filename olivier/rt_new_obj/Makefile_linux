@@ -1,0 +1,61 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: svelhinh <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2015/12/09 16:51:55 by svelhinh          #+#    #+#              #
+#    Updated: 2016/03/02 10:43:21 by svelhinh         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+NAME = rt
+
+SRC2 = main.c events.c functions.c raytracer.c objects.c init_all.c init_camera_light.c \
+			init_objects.c parser.c parsing_camera_light.c parsing_objects.c vectors.c light.c
+
+SRC = $(addprefix srcs/, $(SRC2))
+
+INCLUDES = includes -I libft/includes/
+
+LIB = -L/usr/include/../lib -I/usr/include -lmlx -lXext -lX11 -lm
+
+LIBFT = libft/libft.a
+
+OBJ = $(SRC:.c=.o)
+
+all: $(NAME)
+		@echo -n "\033[0m"
+
+$(NAME): rtv $(OBJ)
+		@echo -n "\n\033[33mLIBFT : \033[0m"
+		@make -s -C libft
+		@gcc -o $(NAME) -Wall -Wextra -Werror $(OBJ) $(LIB) $(LIBFT)
+
+%.o: %.c
+		@echo -n "\033[32m="
+		@gcc -o $@ -c $< -Wall -Wextra -Werror -I $(INCLUDES)
+
+rtv:
+		@echo -n "\033[32mRTV1 : "
+
+clean:
+		@echo "\033[32mSuppression des objets du rtv1\033[0m"
+		@rm -f $(OBJ)
+
+fclean: clean
+		@echo "\033[32mSuppression de l'executable du rtv1\033[0m"
+		@rm -f $(NAME)
+
+clean_ft: clean
+	@make -s clean -C libft
+
+fclean_ft: fclean
+	@make -s fclean -C libft
+
+re: fclean all
+
+re_ft: fclean_ft all
+
+.PHONY: all clean fclean re clean_ft fclean_ft re_ft

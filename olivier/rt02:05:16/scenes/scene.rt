@@ -1,0 +1,16 @@
+resolution : 640 480
+
+background_color : 555555
+
+object : camera
+pos : 0 0 -500
+
+object : sphere
+pos : 0 0 0
+radius : 30
+color : 1 1 0
+
+object : sphere
+pos : 30 0 0
+radius : 50
+color : 0 1 1

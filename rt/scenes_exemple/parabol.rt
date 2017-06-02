@@ -1,0 +1,20 @@
+resolution : 1280 720
+
+object : camera
+pos : 2 20 -50
+angle : 0.09 0 0
+
+object : light
+pos : 0 0 -30
+color : 0.5 0.5 0.5
+
+material_type : earth
+
+material_type : wood
+texture : img/wood.png 1
+
+object : parabol
+pos : 0 0 0
+radius : 10
+angle : 0 0 0
+color : 0 1 0

@@ -1,0 +1,97 @@
+resolution : 1280 720
+
+background_color : 0.2 0.8 1
+
+object : camera
+pos : 0 0 -500
+
+object : light
+pos : 100 -100 -300
+color : 0.5 0.5 0.5
+
+material_type : glass
+specular : 500
+specular_power : 100
+
+object : plane
+pos : 0 -1 0
+radius : 25
+color : 0 1 0
+
+object : cube
+pos : 80 25 300
+radius : 25
+angle : 0 0.7 0
+color : 0.4 0.4 0.4
+
+object : cube
+pos : 80 0 300
+radius : 25
+angle : 0 0.7 0
+color : 0.4 0.4 0.4
+
+object : cube
+pos : -80 20 300
+radius : 20
+angle : 0 0.7 0
+color : 0.4 0.4 0.4
+
+object : cube
+pos : -80 0 300
+radius : 20
+angle : 0 0.7 0
+color : 0.4 0.4 0.4
+
+object : cube
+pos : -180 20 500
+radius : 20
+angle : 0 0.7 0
+color : 0.4 0.4 0.4
+
+object : cube
+pos : -180 0 500
+radius : 20
+angle : 0 0.7 0
+color : 0.4 0.4 0.4
+
+object : triangle
+c : -70 -35 0
+b : -60 -25 10
+a : -80 -25 0
+angle : 0 0 0
+color : 1 0 0
+
+object : triangle
+c : -40 -30 0
+b : -60 -25 10
+a : -80 -25 0
+angle : 0 0 0
+color : 1 1 1
+
+object : triangle
+c : -90 -45 0
+b : -80 -25 10
+a : -85 -15 0
+angle : 0 0 0
+color : 0 0 1
+
+object : triangle
+c : -50 -45 0
+b : -60 -25 10
+a : -50 -15 0
+angle : 0 0 0
+color : 0 0 1
+
+object : triangle
+c : -60 -25 0
+b : -40 -23 10
+a : -20 -15 0
+angle : 0 0 0
+color : 1 1 1
+
+object : triangle
+c : -100 -30 0
+b : -120 -25 10
+a : -80 -25 0
+angle : 0 0 0
+color : 1 1 1

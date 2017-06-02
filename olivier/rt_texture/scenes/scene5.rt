@@ -1,0 +1,26 @@
+resolution : 640 480
+
+background_color : 0
+
+object : camera
+pos : 0 0 -3000
+
+object : light
+pos : -100 -300 -2000
+color : 0.5 0.5 0.5
+
+object : cylinder
+pos : 0 0 0
+radius : 20
+color : 0 1 1
+
+object : cylinder
+pos : -50 0 -300
+radius : 10
+angle : 0 0 -0.5
+color : 1 1 0
+
+object : plane
+pos : 0 -1 0
+radius : 100
+color : 1 1 1

@@ -1,0 +1,25 @@
+rtv1 ok
+fichier scene ok
+// fichier xml ko gordon	facile
+ambient ok
+ambient++ ok
+objets limites 4/5	ombres pas bonnes sergio moyen
+perturbations (pas teste totalement) vagues, damier, perlin (2pts) (pas compris) 4/5 gordon facile sauf perlin
+lumiere directe (pas sur) gordon moyen
+lumiere parallele ok
+reflexion, transparence ok mais manque parser 5/5
+// ombre et transparence ko	sergio difficile/moyen
+// textures ko
+// autres textures ko
+// objets  composes ko	luis	moyen
+objets negatifs ok mais a revoir	sergio difficile
+objets natifs simples ok
+effets antialiasing, filtre 2/5	luis (motion blur, stereoscopie, effet cartoon) moyen
+effets techniques multi-thread, sauvegarde image (a ajouter, c'est bidon, sergio) 1/5
+environnement gtk, modifs scene live 2/5 sergio, facile/moyen, luis (generation automatique d'objets) facile
+intermede ok
+// objets exotiques ko	olivier, luis difficile
+// en vrac ko
+// moebius ko
+// caustics/global illumination ko
+c'est beau ok

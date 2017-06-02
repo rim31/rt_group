@@ -1,0 +1,29 @@
+resolution : 1280 720
+
+object : light
+pos : -100 -100 -100
+color : 0.5 0.5 0.5
+
+object : light
+pos : 100 -100 -100
+color : 0.5 0.5 0.5
+
+object : camera
+pos : 0 -30 -250
+
+object : torus
+pos : 0 0 0
+radius : 10
+separation : 25
+color : 1 1 0
+angle : -0.5 0.5 0
+
+object : plane
+pos : 0 -1 0
+radius : 20
+color : 0.5 0.5 0.5
+
+object : plane
+pos : 0 0 -1
+radius : 20
+color : 1 1 1

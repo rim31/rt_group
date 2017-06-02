@@ -1,0 +1,128 @@
+resolution : 1280 720
+
+background_color : 0
+
+object : camera
+pos : 0 0 -15000
+angle : 0 0 0
+
+object : light
+pos : -250 0 -4000
+color : 0 0 0
+
+object : light
+pos : 250 0 -4000
+color : 0 0 0
+
+object : plane
+pos : 0 -1 0
+radius : 150
+specular : 200
+specular_power : 100
+color : 0.6 0.6 0.6
+
+object : plane
+pos : 0 1 0
+radius : 150
+specular : 200
+specular_power : 100
+color : 0.4 0.4 0.4
+
+object : plane
+pos : 0 0 -1
+radius : 300
+specular : 200
+specular_power : 100
+color : 0.2 0.4 0.9
+
+object : sphere
+pos : 0 75 -1500
+radius : 10
+specular : 200
+specular_power : 100
+color : 0.8 0 0
+
+object : cylinder
+pos : -250 0 -500
+radius : 30
+angle : 0 0 0.1
+specular : 200
+specular_power : 100
+color : 0.8 0.8 0.8
+
+object : cylinder
+pos : 250 0 -500
+radius : 30
+specular : 200
+specular_power : 100
+color : 0.8 0.8 0.8
+
+object : cylinder
+pos : -350 0 -3000
+radius : 30
+specular : 200
+specular_power : 100
+color : 0.8 0.8 0.8
+
+object : cylinder
+pos : 350 0 -3000
+radius : 30
+specular : 200
+specular_power : 100
+color : 0.8 0.8 0.8
+
+object : sphere
+pos : -250 -150 -500
+radius : 50
+specular : 200
+specular_power : 100
+color : 0.8 0.8 0.8
+
+object : sphere
+pos : -250 150 -500
+radius : 50
+specular : 200
+specular_power : 100
+color : 0.8 0.8 0.8
+
+object : sphere
+pos : 250 -150 -500
+radius : 50
+specular : 200
+specular_power : 100
+color : 0.8 0.8 0.8
+
+object : sphere
+pos : 250 150 -500
+radius : 50
+specular : 200
+specular_power : 100
+color : 0.8 0.8 0.8
+
+object : sphere
+pos : -350 -150 -3000
+radius : 50
+specular : 200
+specular_power : 100
+color : 0.8 0.8 0.8
+
+object : sphere
+pos : -350 150 -3000
+radius : 50
+specular : 200
+specular_power : 100
+color : 0.8 0.8 0.8
+
+object : sphere
+pos : 350 -150 -3000
+radius : 50
+specular : 200
+specular_power : 100
+color : 0.8 0.8 0.8
+
+object : sphere
+pos : 350 150 -3000
+radius : 50
+specular : 200
+specular_power : 100
+color : 0.8 0.8 0.8

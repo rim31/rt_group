@@ -1,0 +1,81 @@
+resolution : 1280 720
+
+background_color : 0 0 0.6
+
+material_type : metal
+shiny : 1
+reflection : 1
+
+object : camera
+pos : 0 0 -300
+angle : 0 0 0
+
+object : light
+pos : 0 50 -200
+color : 1 0.5 0.5
+
+object : limited_sphere
+pos : 0 -25 0
+radius : 30
+angle : 0 0 0
+color : 1 1 0
+material : glass
+
+object : limited_cylinder
+pos : 0 5 0
+radius : 30
+separation : 30
+angle : 0 0 0
+color : 1 1 0
+material : glass
+
+object : limited_sphere
+pos : -5 20 -20
+radius : 25
+angle : -1.57 -1.57 1.57
+color : 0.4 0.4 0.4
+material : glass
+
+object : sphere
+pos : -20 -20 -30
+radius : 8
+angle : -1.5 -0.5 1.57
+color : 1 1 1
+material : glass
+
+object : sphere
+pos : 0 -20 -30
+radius : 8
+angle : -1.5 -0.5 1.57
+color : 1 1 1
+material : glass
+
+object : sphere
+pos : -10 -5 -30
+radius : 8
+color : 1 1 0
+material : glass
+
+
+object : limited_sphere
+pos : 50 10 0
+radius : 25
+angle : 1.57 -1.57 1.57
+color : 0.4 0.4 0.4
+material : glass
+
+
+object : limited_sphere
+pos : 50 -25 0
+radius : 8
+angle : 0 1.5 0.5
+color : 1 1 0
+material : glass
+
+object : limited_cylinder
+pos : 50 5 0
+radius : 8
+separation : 30
+angle : 0 1.5 0.5
+color : 1 1 0
+material : glass

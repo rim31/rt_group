@@ -1,0 +1,33 @@
+resolution : 640 480
+
+object : camera
+pos : 0 0 -200
+angle : 0 0 0
+
+object : light
+pos : 0 -30 -300
+color : 0 0 0
+
+object : cone
+pos : 25 0 0
+material : metal
+color : 1 1 0
+
+object : triangle
+a : 0 0 0
+b : -30 30 0
+c : 30 30 0
+material : metal
+color : 1 0 0
+
+object : plane
+pos : 0 -1 0
+radius : 25
+material : metal
+color : 1 1 1
+
+object : plane
+pos : 0 0 -1
+radius : 100
+material : glass
+color : 1 1 1

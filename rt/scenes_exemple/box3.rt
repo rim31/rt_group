@@ -1,0 +1,55 @@
+resolution : 1280 720
+
+object : camera
+pos : 0 0 -150
+angle : 0 0 0
+
+object : light
+pos : 20 500 -30
+color : 0.5 0.5 0.5
+parallel : 1
+
+object : light
+pos : 20 0 -45
+color : 0.5 0.5 0.5
+parallel : 0
+
+material_type : earth
+texture : img/earth.jpg 1
+
+object : sphere
+pos : 0 0 -30
+radius : 10
+material : earth
+color : 0 1 0
+
+object : plane
+pos : 0 -1 0
+radius : 20
+material : earth
+color : 1 1 0
+
+object : plane
+pos : 0 1 0
+radius : 25
+material : earth
+color : 1 0 1
+
+object : plane
+pos : -1 0 0
+radius : -30
+material : earth
+color : 0 1 1
+
+object : plane
+pos : 1 0 0
+radius : -30
+material : earth
+color : 1 1 1
+
+object : cube
+pos : -20 0 -45
+material : earth
+radius : 25
+angle : 0 0.3 0
+color : 0 0 1

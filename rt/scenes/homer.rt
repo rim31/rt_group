@@ -1,0 +1,227 @@
+resolution : 1280 720
+
+background_color : 0.8 0.8 1
+
+object : camera
+pos : 0 250 -3000
+
+object : light
+pos : 100 -100 -300
+color : 0.5 0.5 0.5
+
+material_type : glass
+specular : 500
+specular_power : 100
+
+object : limited_sphere
+pos : 0 -25 0
+radius : 28
+angle : 0 0 0
+color : 1 1 0
+
+object : limited_cylinder
+pos : 0 5 0
+radius : 28
+separation : 30
+angle : 0 0 0
+color : 1 1 0
+
+object : limited_sphere
+pos : -3 20 -20
+radius : 23
+separation : -1
+angle : -1.57 -1.57 1.57
+color : 0.4 0.4 0.4
+
+object : limited_sphere
+pos : -3 20 -20
+radius : 25
+separation : -1
+angle : -1.57 1.57 1.57
+color : 0.4 0.4 0.4
+
+object : sphere
+pos : -15 -20 -30
+radius : 12
+angle : -1.5 -0.5 1.57
+color : 1 1 1
+
+object : sphere
+pos : 10 -20 -30
+radius : 12
+angle : -1.5 -0.5 1.57
+color : 1 1 1
+
+object : sphere
+pos : -15 -20 -43
+radius : 2
+angle : -1.5 -0.5 1.57
+color : 0 0 0
+
+object : sphere
+pos : 10 -20 -43
+radius : 2
+angle : -1.5 -0.5 1.57
+color : 0 0 0
+
+object : sphere
+pos : -5 -5 -30
+radius : 8
+color : 1 1 0
+
+object : limited_cone
+pos : 0 -50 -15
+radius : 10
+angle : -0.1 0.05 1.57
+separation : -8
+color : 0 0 0
+
+object : limited_cone
+pos : -15 -50 -15
+radius : 10
+angle : -0.1 0.05 1.57
+separation : -8
+color : 0 0 0
+
+object : limited_cylinder
+pos : 28 0 -10
+radius : 8
+separation : 1
+angle : 1.57 0 0
+color : 1 1 0
+
+object : limited_cylinder
+pos : -28 0 -10
+radius : 8
+separation : 1
+angle : 1.57 0 0
+color : 1 1 0
+
+object : limited_cylinder
+pos : 28 -15 -12
+radius : 1
+separation : 5
+angle : 0 0 -0.3
+color : 0 0 0
+
+object : limited_cylinder
+pos : -28 -15 -12
+radius : 1
+separation : 5
+angle : 0.1 0.3 0.3
+color : 0 0 0
+
+object : limited_cylinder
+pos : 0 65 0
+radius : 29
+separation : 30
+angle : 0 0 0
+color : 1 1 1
+
+object : sphere
+pos : 0 85 0
+radius : 50
+color : 1 1 1
+
+object : sphere
+pos : 0 130 0
+radius : 70
+color : 1 1 1
+
+object : limited_sphere
+pos : 0 130 0
+radius : 71
+separation : -10
+angle : -1.57 -1.57 1.57
+color : 0 0 1
+
+object : limited_cylinder
+pos : 40 70 0
+radius : 15
+separation : 30
+angle : -1.57 -1.57 -0.57
+color : 1 1 1
+
+object : limited_cylinder
+pos : -40 70 0
+radius : 15
+separation : 30
+angle : -1.57 -1.57 0.57
+color : 1 1 1
+
+object : limited_cylinder
+pos : 30 180 0
+radius : 29
+separation : 70
+angle : 0 0 0
+color : 0 0 1
+
+object : limited_cylinder
+pos : -30 180 0
+radius : 29
+separation : 70
+angle : 0 0 0
+color : 0 0 1
+
+object : limited_sphere
+pos : -30 265 0
+radius : 32
+separation : 0
+angle : -1.57 -1.57 -1.57
+color : 0 0 0
+
+object : limited_sphere
+pos : 30 265 0
+radius : 32
+separation : 0
+angle : -1.57 -1.57 -1.57
+color : 0 0 0
+
+object : limited_cylinder
+pos : 85 99 0
+radius : 14
+separation : 30
+angle : -1.57 -1.57 -0.57
+color : 1 1 0
+
+object : limited_cylinder
+pos : -85 99 0
+radius : 14
+separation : 30
+angle : -1.57 -1.57 0.57
+color : 1 1 0
+
+object : sphere
+pos : 120 120 0
+radius : 18
+separation : 30
+angle : -1.57 -1.57 -0.57
+color : 1 1 0
+
+object : sphere
+pos : -120 120 0
+radius : 18
+separation : 30
+angle : -1.57 -1.57 0.57
+color : 1 1 0
+
+object : sphere
+pos : 125 100 0
+radius : 5
+separation : 30
+angle : -1.57 -1.57 -0.57
+color : 1 1 0
+
+object : sphere
+pos : -125 100 0
+radius : 5
+separation : 30
+angle : -1.57 -1.57 0.57
+color : 1 1 0
+
+object : torus
+pos : -60 0 -10
+radius : 5
+separation : 10
+angle : 0.2 0 0
+color : 0.6 0.2 0.8

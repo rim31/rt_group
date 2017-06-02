@@ -1,0 +1,9 @@
+resolution : 640 480
+
+background_color : 000000
+
+object : camera
+pos : 0 0 -40
+
+object : light
+pos : 0 0 -38

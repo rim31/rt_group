@@ -1,0 +1,133 @@
+resolution : 1920 1080
+
+material_type : sun
+texture : img/sun.jpg 2
+
+material_type : mercury
+texture : img/mercury.jpg 2
+
+material_type : venus
+texture : img/venus.jpg 2
+
+material_type : earth
+texture : img/earth.jpg 2
+
+material_type : moon
+texture : img/moon.jpg 2
+
+material_type : mars
+texture : img/mars.jpg 2
+
+material_type : jupiter
+texture : img/jupiter.jpg 2
+
+material_type : saturn
+texture : img/saturn.jpg 2
+
+material_type : uranus
+texture : img/uranus.jpg 2
+
+material_type : neptune
+texture : img/neptune.jpg 2
+
+material_type : stars
+texture : img/stars.jpg 2
+
+object : camera
+pos : 100 -50 -500
+angle : -0.1 -0.1 0
+
+ambient_light : 1
+
+object : sphere
+material : sun
+radius : 75
+pos : 0 0 100
+
+object : sphere
+material : mercury
+radius : 2
+pos : -50 0 0
+
+object : sphere
+material : venus
+radius : 3
+pos : 100 0 75
+
+object : sphere
+material : earth
+radius : 4
+pos : 0 0 -150
+
+object : sphere
+material : moon
+radius : 0.5
+pos : 5 0 -150
+
+object : sphere
+material : mars
+radius : 2
+pos : 150 0 -150
+
+object : sphere
+material : jupiter
+radius : 15
+pos : -300 0 575
+
+object : sphere
+material : saturn
+radius : 10
+pos : -400 0 550
+
+object : sphere
+material : uranus
+angle : 1.57 0 0
+radius : 8
+pos : 100 0 700
+
+object : sphere
+material : neptune
+radius : 7
+pos : 50 0 850
+
+object : torus
+radius : 0.5
+separation : 20
+angle : 0 0 -0.3
+pos : -400 0 550
+color : 0.5 0.5 0.4
+
+object : torus
+radius : 0.5
+separation : 22
+angle : 0 0 -0.3
+pos : -400 0 550
+color : 0.5 0.5 0.4
+
+object : torus
+radius : 0.5
+separation : 24
+angle : 0 0 -0.3
+pos : -400 0 550
+color : 0.5 0.5 0.4
+
+object : torus
+radius : 0.5
+separation : 15
+angle : 1.57 0 0
+pos : 100 0 700
+color : 0.5 0.5 0.5
+
+object : torus
+radius : 0.5
+separation : 13.5
+angle : 1.57 0 0
+pos : 100 0 700
+color : 0.5 0.5 0.5
+
+object : torus
+radius : 0.5
+separation : 15.5
+angle : 1.57 0 0
+pos : 100 0 700
+color : 0.5 0.5 0.5

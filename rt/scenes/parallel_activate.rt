@@ -1,0 +1,22 @@
+resolution : 1280 720
+
+background_color : 0 0 0.6
+
+object : camera
+pos : 0 0 -200
+
+object : light
+pos : 100 -100 -100
+color : 0.5 0.5 0.5
+parallel : 1
+
+material_type : yo
+specular : 500
+specular_power : 100
+
+object : ellipsoide
+pos : 0 0 0
+angle : 0 0 0
+material : yo
+radius : 20
+color : 0 1 0

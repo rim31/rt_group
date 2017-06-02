@@ -1,0 +1,41 @@
+material_type : tex_1
+texture : img/earth.jpg 0.5
+
+material_type : tex_2
+texture : img/earth.jpg 1
+
+material_type : tex_3
+texture : img/earth.jpg 2
+
+material_type : tex_4
+texture : img/earth.jpg 3
+
+material_type : tex_5
+texture : img/earth.jpg 4
+
+ambient_light : 1
+
+object : sphere
+pos : -70 0 0
+radius : 15
+material : tex_1
+
+object : sphere
+pos : -35 0 0
+radius : 15
+material : tex_2
+
+object : sphere
+pos : 0 0 0
+radius : 15
+material : tex_3
+
+object : sphere
+pos : 35 0 0
+radius : 15
+material : tex_4
+
+object : sphere
+pos : 70 0 0
+radius : 15
+material : tex_5

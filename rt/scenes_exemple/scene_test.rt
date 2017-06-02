@@ -1,0 +1,20 @@
+background_color : 0.3 0.3 0.3
+
+resolution : 1280 720
+
+reflections : 2
+
+refractions : 2
+
+object : camera
+pos : 0 0 -200
+
+object : light
+pos : 0 0 -200
+color : 0 0 0
+
+object : sphere
+pos : 0 0 0
+radius : 30
+color : 1 1 1
+material : metal

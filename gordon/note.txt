@@ -1,0 +1,16 @@
+			x A12
+			y
+
+B 2 2
+cosO -sin = x * cos0 + -sin0 * y C 12
+sinO cosO = x * sin0 + y * cos0
+
+BA != BA
+
+A = x	B = cos0 -sin
+	y		sin0 cos0
+A nq n = 2 q = 1
+B qp q = 2 p = 2
+BA
+	C = cos0 * x + -sin0 * y = x
+		sin0 * x + cos0 * y = y

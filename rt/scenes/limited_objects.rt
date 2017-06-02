@@ -1,0 +1,54 @@
+resolution : 1280 720
+
+object : light
+pos : -100 -100 -100
+color : 0.5 0.5 0.5
+
+object : light
+pos : 100 -100 -100
+color : 0.5 0.5 0.5
+
+object : camera
+pos : 0 -30 -250
+
+object : limited_sphere
+pos : 0 0 0
+radius : 20
+separation : 5
+angle : 3.14 0 0
+color : 0 1 0
+
+object : limited_cylinder
+pos : 0 -10 0
+radius : 5
+separation : 20
+angle : 0 0 0
+color : 0 0 1
+
+object : limited_cone
+pos : 0 -33 0
+separation : 10
+angle : 0.5 0 -1.57
+color : 1 0 0
+
+object : triangle
+a : -60 20 0
+b : 5 0 -50
+c : -15 0 15
+color : 1 1 0
+
+object : quadrilateral
+a : 40 15 0
+b : 40 -25 0
+c : -40 5 0
+color : 0 1 1
+
+object : plane
+pos : 0 -1 0
+radius : 20
+color : 0.5 0.5 0.5
+
+object : plane
+pos : 0 0 -1
+radius : 20
+color : 1 1 1

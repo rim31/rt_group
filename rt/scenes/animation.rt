@@ -1,0 +1,9 @@
+material_type : earth
+texture : img/earth.jpg 2
+
+ambient_light : 1
+
+object : sphere
+pos : 0 0 0
+radius : 25
+material : earth

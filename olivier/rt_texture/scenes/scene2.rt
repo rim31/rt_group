@@ -1,0 +1,40 @@
+resolution : 1935 1451
+
+background_color : 0
+
+object : camera
+pos : 0 0 -500
+
+object : light
+pos : 0 0 -500
+color : 1 1 1
+
+object : plane
+pos : 0 -1 0
+radius : 10
+color : 1 1 1
+
+object : plane
+pos : 1 0 0
+radius : -10
+color : 1 0 0.1
+
+object : sphere
+pos : 0 0 0
+radius : 30
+color : 1 1 0
+
+object : cylinder
+pos : 0 0 0
+radius : 10
+color : 0 1 0
+
+object : cylinder
+pos : 100 0 0
+radius : 20
+color : 0 0 0.3
+
+object : cone
+pos : -200 0 0
+radius : 0.5
+color : 0 0 0.7

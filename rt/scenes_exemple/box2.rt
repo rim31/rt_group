@@ -1,0 +1,58 @@
+resolution : 1280 720
+
+reflections : 2
+
+refractions : 2
+
+background_color : 0 0 0
+
+object : camera
+pos : 0 0 -400
+angle : 0 0 0
+
+object : light
+pos : 0 0 -300
+color : 0 0 0
+
+object : sphere
+pos : 0 0 -200
+radius : 10
+material : glass
+color : 0 0 1
+
+object : cylinder
+pos : 0 0 -150
+radius : 5
+angle : 0 0 1.57
+material : metal
+color : 0 1 0
+
+object : plane
+pos : 0 -1 0
+radius : 35
+material : metal
+color : 1 1 1
+
+object : plane
+pos : 0 1 0
+radius : 35
+material : metal
+color : 1 1 1
+
+object : plane
+pos : -1 0 0
+radius : -35
+material : metal
+color : 1 1 0
+
+object : plane
+pos : 1 0 0
+radius : -35
+material : glass
+color : 1 0 0
+
+object : plane
+pos : 0 0 -1
+material : metal
+radius : 0
+color : 0 1 1
